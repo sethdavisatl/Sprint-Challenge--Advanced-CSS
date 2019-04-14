@@ -163,9 +163,9 @@ p {
 .nav_container {
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border: 1px solid #F1F1F1;
   background: #F6F6F6;
   padding-bottom: 10px;
