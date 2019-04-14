@@ -1,5 +1,5 @@
 // Mixins Here
-.flex-center (){
+.flex-center () {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +23,11 @@
     font-size: 1.8rem;
     border-radius: @bgradius;
     padding-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        color: @bgcolor;
+        background: @color;
+    }
 }
