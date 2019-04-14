@@ -237,6 +237,18 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  display: block;
+  background: #22283A;
+  color: #F6F7F8;
+  font-family: 'Ubuntu', sans-serif;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  padding-top: 8px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
