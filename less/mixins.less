@@ -1,1 +1,38 @@
 // Mixins Here
+.flex-center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.std-font() {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: @main-font-color;
+}
+
+// Button
+.button (@color: white, @bgcolor: black, @bgradius: 5px) {
+    display: block;
+    background: @bgcolor;
+    color: @color;
+    font-family: 'Ubuntu', sans-serif;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: @bgradius;
+    padding-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        color: @bgcolor;
+        background: @color;
+    }
+     @media @phone {
+         width: 100%;
+         height: 50px;
+         padding-top: 12px;
+      }
+}
